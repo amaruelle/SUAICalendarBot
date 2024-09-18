@@ -1,0 +1,7 @@
+services:
+  bot:
+    build: .
+    env_file: .env
+    command: python bot.py
+    environment:
+        - START_DATE=2024-09-02
